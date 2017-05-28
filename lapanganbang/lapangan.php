@@ -26,7 +26,7 @@
 </table>
 <?php
 if(isset($_SESSION['login_user'])){ ?>
-<form action="booking.php" method="post" name="booking">
+<form action="booking.php" method="post" id="booking">
 	<input type="hidden" name="id" value='<?php echo $id ?>'>
 	Tanggal:<br>
 			<select name="tanggal" id="tanggal" form="booking"  required>
